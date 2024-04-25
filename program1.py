@@ -28,8 +28,3 @@ class Solution(object):
         # After iterating through all characters, if the stack is empty, return True (all brackets are valid)
         return not stack
 
-# Test cases
-solution = Solution()
-print(solution.isValid("()"))       # Output: True
-print(solution.isValid("()[]{}"))    # Output: True
-print(solution.isValid("(]"))        # Output: False
